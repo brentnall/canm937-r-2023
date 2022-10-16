@@ -2,7 +2,7 @@
 
 # Tutorial for R 
 
-Run in RStudio on binder: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/brentnall/canm937-r-2023/master?urlpath=rstudio)
+Run in RStudio on binder: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/brentnall/canm937-r-2023/main?urlpath=rstudio)
 
 # License
 
