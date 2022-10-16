@@ -2,8 +2,8 @@
 title: "Research Methods Statistics Tutorial R"
 output:
   word_document: default
-  html_document: default
   pdf_document: default
+  html_document: default
 ---
 # Background 
 
@@ -27,8 +27,11 @@ The METABRIC data consist of clincal characteristics coupled with gene expressio
 
 1. Create an account with RStudio Cloud https://rstudio.cloud/
 2. Log in
-3. Load this tutorial by
-4. Follow instructions below
+3. Load this tutorial by selecting "New project" > "New project from Git Repository", and enter **https://github.com/brentnall/canm937-r-2023**
+4. Wait for project to load, then RStudio will load. The data are now loaded into the cloud. Follow instructions in the worksheet below.
+  
+(Note that the code in the worksheet is also available in the file `tutorial-code.R` that has loaded. You can work through without copying and pasting by selecting the line with the code to run and hitting Ctrl + Space).
+
 
 # Tasks 
 
@@ -191,4 +194,13 @@ prop.test(npos, ntot)
 
 # If time left
 
-Keep exploring! eg. Consider trying to fit a linear regression using code from the first two tutorials.
+Keep exploring! eg. Consider trying to fit a linear regression using code from the first two tutorials. 
+
+# Troubleshooting RStudio Cloud for the tutorial
+
+If you cannot run above via RStudio Cloud for the tutorial, then an alternative way is to follow this link:
+
+**http://mybinder.org/v2/gh/brentnall/canm937-r-2023/main?urlpath=rstudio**
+
+Note however, that you cannot save anything using this route - any changes you make will be lost. Therefore, for doing your own analysis where you need to save your results and scripts please use RStudio Cloud (or install on your own computer).
+
